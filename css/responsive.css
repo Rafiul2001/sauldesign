@@ -1,0 +1,569 @@
+@media (max-width: 320px) {
+    header {
+        padding: 18px 0;
+    }
+
+    header .header-wrapper .menu-icon {
+        display: block;
+    }
+
+    header .header-wrapper ul {
+        display: none;
+        gap: 48px;
+    }
+
+    #banner {
+        margin-top: 40px;
+        margin-bottom: 0;
+    }
+
+    #banner .banner-wrapper .left {
+        padding-left: 0;
+    }
+
+    #banner .banner-wrapper .left h1 {
+        line-height: 51px;
+        font-size: 42px;
+        text-align: center;
+    }
+
+    #banner .banner-wrapper .left .banner-text-indicator {
+        display: none;
+    }
+
+    #banner .banner-wrapper .left button {
+        display: block;
+        border-radius: 12px;
+        font-size: 14px;
+        margin: 8px auto;
+    }
+
+    #banner .banner-wrapper .right {
+        display: none;
+    }
+
+    #about {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        margin-bottom: 0;
+    }
+
+    #about .about-wrapper {
+        flex-direction: column-reverse;
+    }
+
+    #about .about-wrapper .left h2 {
+        text-align: center;
+        font-size: 36px;
+    }
+
+    #about .about-wrapper .left p {
+        text-align: center;
+        font-size: 14px;
+    }
+
+    #about .about-wrapper .left img:nth-of-type(2) {
+        display: none;
+    }
+
+    #about .about-wrapper .left img:nth-of-type(1) {
+        display: none;
+    }
+
+    #about .about-wrapper .left img:nth-of-type(3) {
+        display: none;
+    }
+
+    #work {
+        padding: 40px 0;
+    }
+
+    #work h2 {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    #work .work-menu {
+        justify-content: center;
+        gap: 8px;
+    }
+
+    #work .work-menu li button {
+        padding: 4px 15px;
+        font-size: 12px;
+    }
+
+    #work .work-wrapper {
+        margin-top: 16px;
+        gap: 16px;
+        flex-direction: column;
+    }
+
+    #work .work-wrapper div {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    #work .work-wrapper div img {
+        width: 100%;
+    }
+
+    #contact {
+        padding: 42px 0;
+    }
+
+    #contact .contact-wrapper {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    #contact .contact-wrapper .left h2 {
+        font-size: 36px;
+        line-height: 44px;
+        text-align: center;
+    }
+
+    #contact .contact-wrapper .left img {
+        padding-left: 0;
+        width: 100%;
+    }
+
+    #contact .contact-wrapper .right form .input-wrapper {
+        gap: 16px;
+        flex-direction: column;
+    }
+
+    #contact .contact-wrapper .right form label {
+        font-size: 14px;
+    }
+
+    #contact .contact-wrapper .right form .input-wrapper div input {
+        border-radius: 8px;
+        padding: 4px 4px;
+        font-size: 14px;
+    }
+
+    #contact .contact-wrapper .right form textarea {
+        border-radius: 8px;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    #contact .contact-wrapper .right form button {
+        padding: 10px 32px;
+        font-size: 14px;
+        border-radius: 8px;
+        margin: 0 auto;
+    }
+
+    #contact .contact-wrapper .right .contact-vectors:nth-of-type(1) {
+        display: none;
+    }
+
+    #contact .contact-wrapper .right .contact-vectors:nth-of-type(2) {
+        display: none;
+    }
+
+    footer {
+        padding: 20px 0;
+    }
+
+    footer .link-wrapper {
+        gap: 5px;
+        flex-direction: column;
+    }
+
+    footer .social-link-wrapper {
+        gap: 10px;
+    }
+
+    footer .term-link {
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 576px) {
+    header {
+        padding: 18px 0;
+    }
+
+    header .header-wrapper .menu-icon {
+        display: block;
+    }
+
+    header .header-wrapper ul {
+        display: none;
+        gap: 48px;
+    }
+
+    #banner {
+        margin-top: 40px;
+        margin-bottom: 0;
+    }
+
+    #banner .banner-wrapper .left {
+        padding-left: 0;
+    }
+
+    #banner .banner-wrapper .left h1 {
+        line-height: 51px;
+        font-size: 42px;
+        text-align: center;
+    }
+
+    #banner .banner-wrapper .left .banner-text-indicator {
+        display: none;
+    }
+
+    #banner .banner-wrapper .left button {
+        display: block;
+        border-radius: 12px;
+        font-size: 14px;
+        margin: 8px auto;
+    }
+
+    #banner .banner-wrapper .right {
+        display: none;
+    }
+
+    #about {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        margin-bottom: 0;
+    }
+
+    #about .about-wrapper {
+        flex-direction: column-reverse;
+    }
+
+    #about .about-wrapper .left h2 {
+        text-align: center;
+        font-size: 36px;
+    }
+
+    #about .about-wrapper .left p {
+        text-align: center;
+        font-size: 14px;
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+    #about .about-wrapper .left img:nth-of-type(2) {
+        display: none;
+    }
+
+    #about .about-wrapper .left img:nth-of-type(1) {
+        display: none;
+    }
+
+    #about .about-wrapper .left img:nth-of-type(3) {
+        display: none;
+    }
+
+    #about .about-wrapper .right img {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    #work {
+        padding: 40px 0;
+    }
+
+    #work h2 {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    #work .work-menu {
+        justify-content: center;
+        gap: 8px;
+    }
+
+    #work .work-menu li button {
+        padding: 4px 15px;
+        font-size: 12px;
+    }
+
+    #work .work-wrapper {
+        margin-top: 16px;
+        gap: 16px;
+        flex-direction: column;
+    }
+
+    #work .work-wrapper div {
+        width: 80%;
+        overflow: hidden;
+    }
+
+    #work .work-wrapper div img {
+        width: 100%;
+    }
+
+    #contact {
+        padding: 42px 0;
+    }
+
+    #contact .contact-wrapper {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    #contact .contact-wrapper .left h2 {
+        font-size: 36px;
+        line-height: 44px;
+        text-align: center;
+    }
+
+    #contact .contact-wrapper .left img {
+        padding-left: 0;
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    #contact .contact-wrapper .right form {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    #contact .contact-wrapper .right form .input-wrapper {
+        gap: 16px;
+        flex-direction: column;
+    }
+
+    #contact .contact-wrapper .right form label {
+        font-size: 14px;
+    }
+
+    #contact .contact-wrapper .right form .input-wrapper div input {
+        border-radius: 8px;
+        padding: 4px 4px;
+        font-size: 14px;
+    }
+
+    #contact .contact-wrapper .right form textarea {
+        border-radius: 8px;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    #contact .contact-wrapper .right form button {
+        padding: 10px 32px;
+        font-size: 14px;
+        border-radius: 8px;
+        margin: 0 auto;
+    }
+
+    #contact .contact-wrapper .right .contact-vectors:nth-of-type(1) {
+        display: none;
+    }
+
+    #contact .contact-wrapper .right .contact-vectors:nth-of-type(2) {
+        display: none;
+    }
+
+    footer {
+        padding: 20px 0;
+    }
+
+    footer .link-wrapper {
+        gap: 5px;
+        flex-direction: column;
+    }
+
+    footer .social-link-wrapper {
+        gap: 10px;
+    }
+
+    footer .term-link {
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 992px) {
+    header {
+        padding: 18px 0;
+    }
+
+    header .header-wrapper ul {
+        gap: 48px;
+    }
+
+    #banner {
+        margin-top: 40px;
+        margin-bottom: 0;
+    }
+
+    #banner .banner-wrapper {
+        align-items: center;
+    }
+
+    #banner .banner-wrapper .left {
+        padding-left: 0;
+    }
+
+    #banner .banner-wrapper .left h1 {
+        line-height: 51px;
+        font-size: 42px;
+    }
+
+    #banner .banner-wrapper .left .banner-text-indicator {
+        display: none;
+    }
+
+    #banner .banner-wrapper .left button {
+        display: block;
+        border-radius: 12px;
+        font-size: 14px;
+        margin: 16px 0;
+    }
+
+    #banner .banner-wrapper .right {
+        max-width: 40%;
+    }
+
+    #about {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        margin-bottom: 0;
+    }
+
+    #about .about-wrapper .left h2 {
+        font-size: 36px;
+    }
+
+    #about .about-wrapper .left p {
+        font-size: 14px;
+        max-width: 80%;
+    }
+
+    #about .about-wrapper .left img:nth-of-type(2) {
+        display: none;
+    }
+
+    #about .about-wrapper .left img:nth-of-type(1) {
+        display: none;
+    }
+
+    #about .about-wrapper .left img:nth-of-type(3) {
+        display: none;
+    }
+
+    #about .about-wrapper .right img {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    #work {
+        padding: 40px 0;
+    }
+
+    #work h2 {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    #work .work-menu {
+        justify-content: center;
+        gap: 8px;
+    }
+
+    #work .work-menu li button {
+        padding: 4px 15px;
+        font-size: 12px;
+    }
+
+    #work .work-wrapper {
+        margin-top: 16px;
+        gap: 16px;
+    }
+
+    #work .work-wrapper div {
+        flex: 1;
+        overflow: hidden;
+        height: 180px;
+    }
+
+    #work .work-wrapper div img {
+        width: 100%;
+    }
+
+    #contact {
+        padding: 42px 0;
+    }
+
+    #contact .contact-wrapper {
+        gap: 20px;
+    }
+
+    #contact .contact-wrapper .left h2 {
+        font-size: 36px;
+        line-height: 44px;
+    }
+
+    #contact .contact-wrapper .left img {
+        padding-left: 0;
+        width: 80%;
+    }
+
+    #contact .contact-wrapper .right form {
+        width: 100%;
+    }
+
+    #contact .contact-wrapper .right form .input-wrapper {
+        gap: 16px;
+        flex-direction: column;
+    }
+
+    #contact .contact-wrapper .right form label {
+        font-size: 14px;
+    }
+
+    #contact .contact-wrapper .right form .input-wrapper div input {
+        border-radius: 8px;
+        padding: 4px 4px;
+        font-size: 14px;
+    }
+
+    #contact .contact-wrapper .right form textarea {
+        border-radius: 8px;
+        padding: 10px;
+        font-size: 14px;
+        height: 200px;
+    }
+
+    #contact .contact-wrapper .right form button {
+        padding: 10px 32px;
+        font-size: 14px;
+        border-radius: 8px;
+    }
+
+    #contact .contact-wrapper .right .contact-vectors:nth-of-type(1) {
+        display: none;
+    }
+
+    #contact .contact-wrapper .right .contact-vectors:nth-of-type(2) {
+        display: none;
+    }
+
+    footer {
+        padding: 20px 0;
+    }
+
+    footer .link-wrapper {
+        gap: 5px;
+    }
+
+    footer .social-link-wrapper {
+        gap: 10px;
+    }
+
+    footer .term-link {
+        text-align: center;
+        margin-top: 20px;
+    }
+}
