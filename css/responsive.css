@@ -31,11 +31,6 @@
         justify-content: right;
     }
 
-    header .header-wrapper ul .menu_cross_icon img {
-        width: 28px;
-        height: auto;
-    }
-
     #banner {
         margin-top: 40px;
         margin-bottom: 0;
@@ -242,11 +237,6 @@
     header .header-wrapper ul .menu_cross_icon {
         display: flex;
         justify-content: right;
-    }
-
-    header .header-wrapper ul .menu_cross_icon img {
-        width: 28px;
-        height: auto;
     }
 
     #banner {
