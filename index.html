@@ -15,12 +15,15 @@
         <nav class="container">
             <div class="header-wrapper">
                 <img src="./images/SaulDesign.png" alt="SaulDesign">
-                <ul>
+                <ul id="menu">
+                    <li class="menu_cross_icon">
+                        <img onclick="toggleMenu()" src="./images/menu_cross.png" alt="menu_cross">
+                    </li>
                     <li><a href="">Home</a></li>
                     <li><a href="">About Me</a></li>
                     <li><a href="">Contact</a></li>
                 </ul>
-                <img class="menu-icon" src="./images/menu-icon.png" alt="menu-icon">
+                <img onclick="toggleMenu()" class="menu-icon" src="./images/menu-icon.png" alt="menu-icon">
             </div>
         </nav>
     </header>
@@ -113,7 +116,8 @@
                         <label for="message">Your message</label>
                         <textarea name="message" id="message"></textarea>
 
-                        <button><span>Send Message</span> <img src="./images/contact-send.svg" alt="send button"></button>
+                        <button><span>Send Message</span> <img src="./images/contact-send.svg"
+                                alt="send button"></button>
                     </form>
                     <img class="contact-vectors" src="./images/keyboard.png" alt="keyboard">
                     <img class="contact-vectors" src="./images/mail.png" alt="mail">
@@ -142,6 +146,12 @@
     </footer>
     <!-- ----------------------------Footer part---------------------- -->
 
+    <script>
+        const sideMenu = document.getElementById("menu")
+        const toggleMenu = () => {
+            sideMenu.classList.toggle("active")
+        }
+    </script>
 </body>
 
 </html>

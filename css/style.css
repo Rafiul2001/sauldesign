@@ -48,6 +48,10 @@ header .header-wrapper ul {
     gap: 48px;
 }
 
+header .header-wrapper ul .menu_cross_icon {
+    display: none;
+}
+
 header .header-wrapper ul li a {
     font-size: 18px;
     color: #EEEEEE;
