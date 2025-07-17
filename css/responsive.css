@@ -32,8 +32,9 @@
     }
 
     #banner {
-        margin-top: 40px;
-        margin-bottom: 0;
+        scroll-margin-top: 134px;
+        padding-top: 40px;
+        padding-bottom: 0;
     }
 
     #banner .banner-wrapper .left {
@@ -62,6 +63,7 @@
     }
 
     #about {
+        scroll-margin-top: 134px;
         padding-top: 40px;
         padding-bottom: 40px;
         margin-bottom: 0;
@@ -94,6 +96,7 @@
     }
 
     #work {
+        scroll-margin-top: 134px;
         padding: 40px 0;
     }
 
@@ -128,6 +131,7 @@
     }
 
     #contact {
+        scroll-margin-top: 134px;
         padding: 42px 0;
     }
 
@@ -240,8 +244,9 @@
     }
 
     #banner {
-        margin-top: 40px;
-        margin-bottom: 0;
+        scroll-margin-top: 134px;
+        padding-top: 40px;
+        padding-bottom: 0;
     }
 
     #banner .banner-wrapper .left {
@@ -270,6 +275,7 @@
     }
 
     #about {
+        scroll-margin-top: 134px;
         padding-top: 40px;
         padding-bottom: 40px;
         margin-bottom: 0;
@@ -310,6 +316,7 @@
     }
 
     #work {
+        scroll-margin-top: 134px;
         padding: 40px 0;
     }
 
@@ -344,6 +351,7 @@
     }
 
     #contact {
+        scroll-margin-top: 134px;
         padding: 42px 0;
     }
 
@@ -435,8 +443,9 @@
     }
 
     #banner {
-        margin-top: 40px;
-        margin-bottom: 0;
+        scroll-margin-top: 134px;
+        padding-top: 40px;
+        padding-bottom: 0;
     }
 
     #banner .banner-wrapper {
@@ -468,6 +477,7 @@
     }
 
     #about {
+        scroll-margin-top: 134px;
         padding-top: 40px;
         padding-bottom: 40px;
         margin-bottom: 0;
@@ -501,6 +511,7 @@
     }
 
     #work {
+        scroll-margin-top: 134px;
         padding: 40px 0;
     }
 
@@ -535,6 +546,7 @@
     }
 
     #contact {
+        scroll-margin-top: 134px;
         padding: 42px 0;
     }
 

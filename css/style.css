@@ -31,8 +31,12 @@ a {
 /* -----------Header Part--------------- */
 
 header {
+    position: sticky;
+    top: 0;
     padding: 48px 0;
     border-bottom: 1px solid rgba(238, 238, 238, 10%);
+    z-index: 1;
+    background-color: #222831;
 }
 
 header .header-wrapper {
@@ -71,8 +75,9 @@ header .header-wrapper ul li a {
 /* -----------Banner Part--------------- */
 
 #banner {
-    margin-top: 192px;
-    margin-bottom: 58px;
+    scroll-margin-top: 194px;
+    padding-top: 192px;
+    padding-bottom: 58px;
 }
 
 #banner .banner-wrapper {
@@ -143,6 +148,7 @@ header .header-wrapper ul li a {
 /* -----------Banner Part--------------- */
 /* -----------About Part--------------- */
 #about {
+    scroll-margin-top: 194px;
     padding-top: 230px;
     padding-bottom: 132px;
     border-bottom: 1px solid rgba(238, 238, 238, 10%);
@@ -215,6 +221,7 @@ header .header-wrapper ul li a {
 /* -----------Work Part--------------- */
 
 #work {
+    scroll-margin-top: 194px;
     background-image: url('../images/works.png');
     background-size: cover;
     background-position: center;
@@ -289,6 +296,7 @@ header .header-wrapper ul li a {
 /* -----------Work Part--------------- */
 /* -----------Contact Part--------------- 5:20pm */
 #contact {
+    scroll-margin-top: 194px;
     padding: 258px 0;
     border-bottom: 1px solid rgba(238, 238, 238, 10%);
 }
