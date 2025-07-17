@@ -11,17 +11,19 @@
 
 <body>
     <!-- ----------------------------Header part---------------------- -->
-    <header>
+    <header id="home">
         <nav class="container">
             <div class="header-wrapper">
-                <img src="./images/SaulDesign.png" alt="SaulDesign">
+                <a href="/">
+                    <img src="./images/SaulDesign.png" alt="SaulDesign">
+                </a>
                 <ul id="menu">
                     <li class="menu_cross_icon">
                         <img onclick="toggleMenu()" src="./images/menu_cross.png" alt="menu_cross">
                     </li>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About Me</a></li>
-                    <li><a href="">Contact</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
                 <img onclick="toggleMenu()" class="menu-icon" src="./images/menu-icon.png" alt="menu-icon">
             </div>
